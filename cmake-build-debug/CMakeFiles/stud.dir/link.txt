@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/stud.dir/main.cpp.o -o stud 
+/usr/bin/c++ -g CMakeFiles/stud.dir/ue8.cpp.o -o stud 

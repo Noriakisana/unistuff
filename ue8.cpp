@@ -8,7 +8,6 @@ int main(void){
     for (int i = 0; i <= 3; i++){ // Belegung Feld A
         felda[i] = 1+(i*2);
     }
-    felda[4] = 6;
     for (int i = 0; i <= 5; i++){
         feldb[i] = 2+(i*2);
     }
@@ -23,7 +22,7 @@ int main(void){
             tickera++;
         }
         if(tickera <= 3 && tickerb <=4){
-            if (felda[tickera] > feldb[tickerb] and tickerb < 5) {
+            if (felda[tickera] >= feldb[tickerb] and tickerb < 5) {
                 feldc[sum] = feldb[tickerb];
                 tickerb++;
             } else {

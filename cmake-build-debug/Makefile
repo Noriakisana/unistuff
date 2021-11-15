@@ -129,29 +129,29 @@ stud/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/build
 .PHONY : stud/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+ue8.o: ue8.cpp.o
+.PHONY : ue8.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/main.cpp.o
-.PHONY : main.cpp.o
+ue8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/ue8.cpp.o
+.PHONY : ue8.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+ue8.i: ue8.cpp.i
+.PHONY : ue8.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/main.cpp.i
-.PHONY : main.cpp.i
+ue8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/ue8.cpp.i
+.PHONY : ue8.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+ue8.s: ue8.cpp.s
+.PHONY : ue8.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/main.cpp.s
-.PHONY : main.cpp.s
+ue8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stud.dir/build.make CMakeFiles/stud.dir/ue8.cpp.s
+.PHONY : ue8.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... stud"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ue8.o"
+	@echo "... ue8.i"
+	@echo "... ue8.s"
 .PHONY : help
 
 

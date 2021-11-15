@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jochenm/CLionProjects/stud/main.cpp">
+		<Unit filename="/home/jochenm/CLionProjects/stud/ue8.cpp">
 			<Option target="stud"/>
 		</Unit>
 		<Unit filename="/home/jochenm/CLionProjects/stud/CMakeLists.txt">
