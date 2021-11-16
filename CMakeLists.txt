@@ -3,4 +3,4 @@ project(stud)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(stud ue8.cpp)
+add_executable(stud ue9.cpp)

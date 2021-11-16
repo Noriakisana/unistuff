@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stud.dir/ue8.cpp.o"
+  "CMakeFiles/stud.dir/ue9.cpp.o"
   "stud"
   "stud.pdb"
 )
